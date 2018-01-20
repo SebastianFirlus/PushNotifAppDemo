@@ -55,7 +55,7 @@ document.addEventListener('deviceready', function() {
         .startInit("a03543b7-4970-497f-9e7c-374dd60ca52a")
         .handleNotificationOpened(notificationOpenedCallback)
         .endInit();*/
-    //init function to use OneSignal service and GCM sender ID
+    //init function to use OneSignal service (Your APP ID) and GCM sender ID
     window.plugins.OneSignal.init("a03543b7-4970-497f-9e7c-374dd60ca52a",
         {googleProjectNumber: "2093598546"},
         notificationOpenedCallback);
