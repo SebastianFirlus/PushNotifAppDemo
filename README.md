@@ -16,7 +16,7 @@ Im ersten Schritt muss ein neues Firebase Projekt bzw. Google Projekt angelegt w
 
 Als Sender-Service für die Push Benachrichtigungen wird an dieser Stelle [OneSignal](https://onesignal.com/) verwendet. Unter OneSignal muss die eigene App mit der Google Prokjektnummer und dem Serverschlüssel registriert werden. Dadurch lässt sich eine App ID generieren, welche im Quellcode später benötigt wird.
 
-Nachdem installieren des OneSignal Plugins kann man sich mit folgendem Quellcode in der index.js zu dem Dienst verbinden:
+Nach dem Installieren des OneSignal Plugins kann man sich mit folgendem Quellcode in der index.js zu dem Dienst verbinden:
 ```javascript
 document.addEventListener('deviceready', function() {
     var notificationOpenedCallback = function(jsonData) {
@@ -32,7 +32,7 @@ document.addEventListener('deviceready', function() {
 
 ## Links
 ***
-[OneSignal Dokumentation](https://documentation.onesignal.com/docs)
-[OneSignal für Andorid](https://documentation.onesignal.com/docs/android-sdk-setup)
-[OneSignal für iOS](https://documentation.onesignal.com/docs/ios-sdk-setup)
+[OneSignal Dokumentation](https://documentation.onesignal.com/docs)|
+[OneSignal für Andorid](https://documentation.onesignal.com/docs/android-sdk-setup)|
+[OneSignal für iOS](https://documentation.onesignal.com/docs/ios-sdk-setup)|
 [OneSignal für Cordova](https://documentation.onesignal.com/docs/cordova-sdk-setup)
