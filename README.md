@@ -3,13 +3,11 @@
 Eine Push Benachrichtigung ist eine Nachricht, die von einem Backend Server oder einer Anwendung an eine mobile Anwendung oder Desktop Anwendung gesendet wird. Bei eine Push Benachrichtigung sendet ein Server eine Nachricht, auch wenn der Client keine Anfrage sendet.
 
 ## Use Cases
-***
 Push Benachrichtigungen werden genutzt um die Aufmerksamkeit eines Nutzers durch eine Information zu erlangen. Häufig wird dies bei Chatnachrichten, E-Mails, Erinnerungen etc. genutzt. Benachrichtigungen und Darstellungen sind plattformabhängig. In diesem Beispiel geht es lediglich um das Backend und nicht um die Darstellung der Benachrichtigung. Die Push Benachrichtigung wird über die Anbieterinfrastruktur gesendent, zum Beispiel Worklight Server (iPhone) oder Google Cloud Message (Android).
 
 Wichtiger Hinweis: Nachfolgendes Beispiel wurde mit Cordova entwickelt, über den Anbieter Google Cloud Message. Es ist bei diesem Service nicht möglich Push Benachrichtigungen im Browser anzuzeigen, ein Emulator ist zwingend erforderlich. Dies liegt daran, dass das Backend für Push Benachrichtigungen Anbieter abhängig ist. Ein Beispiel für nur Andorid Geräte kann unter diesem Link geladen werden: [AndroidPushNotifDemo](https://github.com/SebastianFirlus/AndroidPushNotifDemo)
 
 ## Konfiguration (Google Cloud Message)
-***
 Im ersten Schritt muss ein neues Firebase Projekt bzw. Google Projekt angelegt werden, um sich beim Anbieter zu registrieren und eine Google Projektnummer und einen Serverschlüssel zu erhalten.
 [Google Projekt](https://console.developers.google.com)
 [Firebase](https://firebase.google.com/)
@@ -31,8 +29,7 @@ document.addEventListener('deviceready', function() {
 ```
 
 ## Links
-***
-[OneSignal Dokumentation](https://documentation.onesignal.com/docs)|
-[OneSignal für Andorid](https://documentation.onesignal.com/docs/android-sdk-setup)|
-[OneSignal für iOS](https://documentation.onesignal.com/docs/ios-sdk-setup)|
+[OneSignal Dokumentation](https://documentation.onesignal.com/docs) |
+[OneSignal für Andorid](https://documentation.onesignal.com/docs/android-sdk-setup) |
+[OneSignal für iOS](https://documentation.onesignal.com/docs/ios-sdk-setup) |
 [OneSignal für Cordova](https://documentation.onesignal.com/docs/cordova-sdk-setup)
