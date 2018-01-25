@@ -20,6 +20,7 @@ document.addEventListener('deviceready', function() {
     var notificationOpenedCallback = function(jsonData) {
         alert("Notification is received!");
     };
+    //Persönliche OneSignal AppID & Google Project Number eintragen
     window.plugins.OneSignal.init("a03543b7-4970-497f-9e7c-374dd60ca52a",
         {googleProjectNumber: "2093598546"},
         notificationOpenedCallback);
